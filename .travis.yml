@@ -1,5 +1,5 @@
 language: bash
-before_install:
+before_script:
   - sudo apt-get install curl && sudo apt-get install jq
 script: 
   - ./test.sh
